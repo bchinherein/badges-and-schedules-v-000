@@ -24,7 +24,7 @@ def printer(name)
   rooms = assign_rooms(name)
 
   badges.each_with_index do |name, index|
-    name
-    rooms[index]
+    puts name
+    puts rooms[index]
   end
 end
