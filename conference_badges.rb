@@ -20,6 +20,6 @@ def assign_rooms(name)
 end
 
 def printer(name)
-  puts batch_badge_creator(name)
+  puts batch_badge_creator(name)[]
   puts assign_rooms(name)
 end
