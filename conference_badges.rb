@@ -21,8 +21,10 @@ end
 
 def printer(name)
   badges = batch_badge_creator(name)
+  rooms = assign_rooms(name)
 
   badges.each_with_index do |name, index|
-    puts name
+    name
+    rooms[index]
   end
 end
